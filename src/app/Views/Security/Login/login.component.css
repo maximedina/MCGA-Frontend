@@ -3,41 +3,38 @@ body {
   height: 100vh;
 }
 
-#cardLoginPage{
-  border: 0px solid rgba(0,0,0,.125) !important;
+#cardLoginPage {
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
 }
 
 .headerImg {
   width: 100%;
-  height:78px;
+  height: 78px;
   background-color: #d3d3d3;
   box-shadow: 1px 2px 3px rgba(48, 48, 48, 0.46);
 }
 
-
-.imgI2Portal{
+.imgI2Portal {
   width: 200px;
-  z-index:1;
-  top:0; left:0;
+  z-index: 1;
+  top: 0;
+  left: 0;
   margin-top: 15px;
   filter: grayscale(0);
-  opacity: 1.0;
+  opacity: 1;
 }
 
-
-
-#cardLoginPage{
+#cardLoginPage {
   margin-top: 0px !important;
 }
 
 #cardLoginPage .card-body {
   justify-content: center;
-  background:  #B1B1B1;
+  background: #b1b1b1;
   box-shadow: 1px 2px 3px rgba(48, 48, 48, 0.46);
   border-radius: 10px !important;
   margin-top: 25% !important;
   /* border:0px !important; */
-
 }
 
 #cardLoginPage label {
@@ -45,7 +42,7 @@ body {
   height: 1px;
   text-align: left;
   font-family: Verdana;
-  color:white;
+  color: white;
   font-weight: bold;
   padding-bottom: 0rem;
   font-size: 0.78rem;
@@ -70,33 +67,34 @@ body {
   font-size: 0.9rem;
   font-family: Verdana;
   background-color: rgb(95, 95, 95);
-  color:white;
+  color: white;
   font-weight: bold;
-  border: 1px solid  rgb(95, 95, 95);
+  border: 1px solid rgb(95, 95, 95);
 }
 
 #btSubmit .ui-button:not([disabled]):hover {
   /* background-color: rgb(87, 93, 121); */
-  background-color:rgb(95, 95, 95);
+  background-color: rgb(95, 95, 95);
   border: 1px solid white !important;
 }
 
-.lang-flag{
+.lang-flag {
   width: 30px;
-  height:30px;
-  border-radius:200px;
-  background-size:100% 100%;
-  color:transparent;
-  background-color:transparent;
-  border:0px;
-  margin-right:5px;
+  height: 30px;
+  border-radius: 200px;
+  background-size: 100% 100%;
+  color: transparent;
+  background-color: transparent;
+  border: 0px;
+  margin-right: 5px;
 }
 
-.pt:hover, .en:hover, .es:hover{
-  opacity: 1.0;
+.pt:hover,
+.en:hover,
+.es:hover {
+  opacity: 1;
 }
 
-.card{
+.card {
   background-color: transparent;
 }
-

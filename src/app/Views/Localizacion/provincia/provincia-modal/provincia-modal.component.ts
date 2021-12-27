@@ -1,20 +1,19 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { Provincia } from 'src/app/Models/Localizacion/Provincia.model';
+import { Component, OnInit, Output, EventEmitter } from "@angular/core";
+import { Provincia } from "src/app/Models/Localizacion/Provincia.model";
 
 @Component({
-  selector: 'app-provincia-modal',
-  templateUrl: './provincia-modal.component.html',
-  styleUrls: ['./provincia-modal.component.css']
+  selector: "app-provincia-modal",
+  templateUrl: "./provincia-modal.component.html",
+  styleUrls: ["./provincia-modal.component.css"],
 })
 export class ProvinciaModalComponent implements OnInit {
   display: boolean = false;
 
   @Output() sendDataModal = new EventEmitter();
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   showModal() {
     this.display = !this.display;
@@ -25,4 +24,3 @@ export class ProvinciaModalComponent implements OnInit {
     this.sendDataModal.emit(provincia);
   }
 }
-

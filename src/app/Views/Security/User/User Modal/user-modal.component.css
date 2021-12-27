@@ -1,7 +1,0 @@
-#login {
-    margin-top: 13px;
-}
-
-:host /deep/ .ui-dialog {
-  width: 50%;
-}

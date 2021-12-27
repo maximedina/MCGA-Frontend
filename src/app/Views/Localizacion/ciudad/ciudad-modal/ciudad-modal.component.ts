@@ -1,11 +1,11 @@
-import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
-import { Ciudad } from '../../../../Models/Localizacion/Ciudad.model';
-import { Provincia } from '../../../../Models/Localizacion/Provincia.model';
+import { Component, OnInit, EventEmitter, Output, Input } from "@angular/core";
+import { Ciudad } from "../../../../Models/Localizacion/Ciudad.model";
+import { Provincia } from "../../../../Models/Localizacion/Provincia.model";
 
 @Component({
-  selector: 'app-ciudad-modal',
-  templateUrl: './ciudad-modal.component.html',
-  styleUrls: ['./ciudad-modal.component.css']
+  selector: "app-ciudad-modal",
+  templateUrl: "./ciudad-modal.component.html",
+  styleUrls: ["./ciudad-modal.component.css"],
 })
 export class CiudadModalComponent implements OnInit {
   display: boolean = false;
@@ -13,9 +13,9 @@ export class CiudadModalComponent implements OnInit {
   ciudad: Ciudad;
 
   @Output() sendDataModal = new EventEmitter();
-  @Input() provincias: Provincia[] =[];
+  @Input() provincias: Provincia[] = [];
 
-  constructor() {  }
+  constructor() {}
 
   ngOnInit() {
     this.ciudad = new Ciudad();

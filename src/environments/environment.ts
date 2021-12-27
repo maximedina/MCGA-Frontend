@@ -4,9 +4,8 @@
 
 export const environment = {
   production: false,
-  COREAPIURL: 'https://localhost:44385/api',
-  APIURL: 'https://localhost:44385/api'
-  /*COREAPIURL: 'https://localhost/coreApi/api'*/
+  //APIURL: 'https://localhost:44385/api'
+  APIURL: 'http://www.mcga-backend.somee.com/api'
 };
 
 /*

@@ -33,24 +33,8 @@ constructor(private http: HttpClient) { }
   deleteProvincia(provincia: Provincia): Observable<any> {
     return this.http.post<any>(this.localizacionUrl + '/Provincia/Delete', provincia.id);
   }
-  /* ------ Service Provincia */
-  
-  /* Service Ciudad */
-/*     getCiudad(incluirInactivos, nombre, provincia) {
-    let idProvincia = 0;
-    if (provincia != null) {
-      if (provincia.id > 0) {
-        idProvincia = provincia.id;
-      }
-    }
-    return this.http.get<Ciudad[]>(this.localizacionUrl +
-      '/Ciudad/Get?incluirInactivos=' + incluirInactivos + '&&nombre=' + ((nombre != null) ? nombre : '') + '&&idProvincia=' + ((idProvincia != null) ? idProvincia : 0));
-  }
 
-  getCiudades() {
-    return this.http.get<Ciudad[]>(this.localizacionUrl + '/Ciudad/Get');
-  } */
-
+      /* ------ Service Ciudad */
   getCiudad(incluirInactivos, nombre, provincia) {
     let idProvincia = 0;
     if (provincia != null){
@@ -67,9 +51,6 @@ constructor(private http: HttpClient) { }
     return this.http.get<Ciudad[]>(this.localizacionUrl + '/Ciudad/Get');
   }
 
-
-
-
   addCiudad(ciudad: Ciudad): Observable<any> {
     return this.http.post<any>(this.localizacionUrl + '/Ciudad/Add', ciudad);
   }
@@ -81,5 +62,5 @@ constructor(private http: HttpClient) { }
   deleteCiudad(ciudad: Ciudad): Observable<any> {
     return this.http.post<any>(this.localizacionUrl + '/Ciudad/Delete', ciudad.id);
   }
-    /* ------ Service Ciudad */
+
 }
