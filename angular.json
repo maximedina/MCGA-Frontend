@@ -26,13 +26,11 @@
               "src/styles.css",
     "./node_modules/primeflex/primeflex.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
               "./node_modules/primeicons/primeicons.css",
               "./node_modules/primeng/resources/themes/nova/theme.css",
               "./node_modules/font-awesome/css/font-awesome.min.css",
               
               "./node_modules/primeng/resources/primeng.min.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css", 
               "./node_modules/quill/dist/quill.core.css",
               "./node_modules/quill/dist/quill.snow.css"
             ],
@@ -95,14 +93,12 @@
             "styles": [
               "src/styles.css",
     "./node_modules/primeflex/primeflex.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/primeicons/primeicons.css",
               "./node_modules/primeng/resources/themes/nova/theme.css",
               "./node_modules/font-awesome/css/font-awesome.min.css",
               
               "./node_modules/primeng/resources/primeng.min.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css", 
               "./node_modules/quill/dist/quill.core.css",
               "./node_modules/quill/dist/quill.snow.css"
             ],
